@@ -1,0 +1,8 @@
+DefaultContentLanguage: fr
+
+theme:
+  - hyde
+
+title: Blog de Quentin
+
+description: "Mon blog personnel avec des sujets liés à l'informatique."
