@@ -1,4 +1,4 @@
-baseURL='www.rolletquentin.com/blog/'
+baseURL='http://rolletquentin.com/blog/'
 defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = true
 theme = 'hyde'
