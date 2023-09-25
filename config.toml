@@ -1,5 +1,5 @@
 baseURL='www.rolletquentin.com/blog/'
-defaultContentLanguage = 'en-us'
+defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = true
 theme = 'hyde'
 
