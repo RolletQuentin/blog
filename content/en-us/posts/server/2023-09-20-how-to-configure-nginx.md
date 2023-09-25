@@ -1,5 +1,5 @@
 +++
-title = 'How to Set Up Nginx''
+title = 'How to Set Up Nginx'
 date = 2023-09-25T19:00:00+02:00
 draft = false
 +++
