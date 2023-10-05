@@ -10,11 +10,11 @@ Auto-déployer son application, c'est ce simplifier la vie au quotidien. En effe
 
 Nous allons d'abord commencer par configurer votre répertoire Github. Pour cela, aller dans les `Paramètres` puis dans l'onglet `Webhooks`, puis appuyer en haut à droite de l'écran pour ajouter un webhook.
 
-![Ajouter un webhook](/images/server/add_webhook.png)
+![Ajouter un webhook](/blog/images/server/add_webhook.png)
 
 Une fois que cela est fait, renseignez une clé secrète pour que Github puisse s'authentifier à votre serveur. Cocher aussi l'option `Send me everything` pour que Github vous envoie à chaque modification de votre répertoire une requête `http` qui permettra de déployer votre code.
 
-![Configurer le webhook](/images/server/set_up_webhook.png)
+![Configurer le webhook](/blog/images/server/set_up_webhook.png)
 
 Le début de la configuration sur Github est terminée, nous reviendrons dessus à la fin de l'article pour finir la configuration.
 
@@ -177,7 +177,7 @@ Et voilà ! Votre webhook est maintenant accessible à partir de l'extérieur !
 
 Maintenant que votre serveur est configuré, revenons sur la configuration de Github. Vous avez juste à renseigner l'URL pour accéder à votre serveur, et bien faire attention à ce que la case `Active` soit cochée. Vous pouvez ensuite enregistrer les modifications.
 
-![Finir le setup du webhook](/images/server/finish_setup.png)
+![Finir le setup du webhook](/blog/images/server/finish_setup.png)
 
 Dans l'onglet `Recent Deliveries`, vous pourrez voir si la connexion entre Github et votre serveur s'est bien déroulée, et regarder le détail de chaque requêtes que Github a fait sur votre serveur.
 
