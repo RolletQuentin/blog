@@ -93,6 +93,14 @@ Here, we have two directories in the `/usr/share/nginx/www` directory, namely `p
 
 The first `location` directive allows displaying the default Nginx page. You can customize this default page by editing the `/usr/share/nginx/html/index.html` file, or you can choose to redirect to `http://servername.com/portfolio` if you want to display your portfolio as the default page, for example.
 
+## Certificate your website
+
+Having an SSL certificate is very important, because once installed on the server, it enables the `https` protocol to be activated, enabling a secure connection between the web server and the browser.
+
+In addition to its importance, it's extremely easy to install thanks to [Certbot](https://certbot.eff.org/instructions)! Just follow the various steps and it will automatically create the SSL certificates and redirect to `https` by modifying the Nginx configuration.
+
+Translated with www.DeepL.com/Translator (free version)
+
 ## References
  - [Fedora Documentation](https://doc.fedora-fr.org/wiki/Nginx)
  - [Grafikart](https://grafikart.fr/tutoriels/nginx-692)
