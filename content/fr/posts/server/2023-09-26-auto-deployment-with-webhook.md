@@ -107,7 +107,7 @@ if [ "$id" =  "portfolio-app" ]; then
         npm run build >> "$log_file" 2>&1
 
         # copy dist folder to nginx html folder
-        cp -r dist /usr/share/nginx/html/portfolio
+        \cp -Rf dist/. /usr/share/nginx/www/portfolio
 fi
 
 echo "The project '$id' is deployed with succes !" >> "$log_file"
