@@ -99,8 +99,6 @@ Having an SSL certificate is very important, because once installed on the serve
 
 In addition to its importance, it's extremely easy to install thanks to [Certbot](https://certbot.eff.org/instructions)! Just follow the various steps and it will automatically create the SSL certificates and redirect to `https` by modifying the Nginx configuration.
 
-Translated with www.DeepL.com/Translator (free version)
-
 ## References
  - [Fedora Documentation](https://doc.fedora-fr.org/wiki/Nginx)
  - [Grafikart](https://grafikart.fr/tutoriels/nginx-692)
