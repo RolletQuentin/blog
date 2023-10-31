@@ -1,7 +1,7 @@
 baseURL='https://rolletquentin.com/blog/'
 defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = true
-theme = 'hyde'
+theme = 'chameleon-theme'
 
 [languages]
   [languages.en-us]
@@ -10,14 +10,11 @@ theme = 'hyde'
     title = "Quentin's blog"
     languageName = "English"
     weight = 1
-    [languages.en-us.params]
-      description = "My personnal blog."
   [languages.fr]
     contentDir = "content/fr"
     languageCode = 'fr-FR'
     title = "Blog de Quentin"
     languageName = "Français"
     weight = 2
-    [languages.fr.params]
-      description = "Mon blog personnel."
+
 
