@@ -2,6 +2,7 @@
 title = 'How to Set Up Nginx'
 date = 2023-09-25T19:00:00+02:00
 draft = false
+weight = 1 
 +++
 
 Self-hosting a web server at home can be a cost-effective solution to avoid paying for remote servers. You can do whatever you want with it and use the technologies you prefer.
@@ -19,18 +20,18 @@ The commands provided will work for Fedora 37, but you may need to adapt them if
 We will use Nginx (pronounced Engine-X) as a reverse proxy and web server.
 
 Let's start by installing Nginx:
-```
+```shell
 sudo dnf install nginx
 ```
 
 Next, you need to activate the service and enable it to start at server boot:
-```
+```shell
 sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
 To check if Nginx is running correctly, you can first look at the service status and then verify if it is exposing port 80. To do this, we will make a `curl` request to localhost and check if it returns an HTML page:
-```
+```shell
 sudo systemctl status nginx
 curl -v 127.0.0.1:80
 ```
@@ -42,14 +43,14 @@ If you see HTML code, it means Nginx has started successfully and is listening o
 
 Now, let's see how to configure Nginx. To do this, we will create an `nginx/conf` directory to hold the Nginx configuration.
 
-```
+```shell
 mkdir -p nginx/conf
 cd nginx/conf
 ```
 
 With this done, we will create a **symbolic link** to the directory where Nginx configuration files should be stored:
 
-```
+```shell
 ln -s /etc/nginx/conf.d
 ```
 
@@ -57,7 +58,7 @@ C'est dans ce dossier que nous mettrons tout les fichiers de configuration.
 
 All configuration files will be placed in this directory. We will also create a symbolic link to the main Nginx configuration file, which will include all the other configuration files in `conf.d`:
 
-```
+```shell
 ln -s /etc/nginx/nginx.conf
 ```
 
@@ -65,7 +66,7 @@ ln -s /etc/nginx/nginx.conf
 
 In the `conf.d` directory, we will create a configuration file. Let's call this file `servername.conf`.
 
-```
+```shell
 server {
 
     server_name     servername.com www.servername.com;

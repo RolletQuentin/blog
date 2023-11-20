@@ -2,6 +2,7 @@
 title = 'Comment configurer Nginx'
 date = 2023-09-25T19:00:00+02:00
 draft = false
+weight = 1
 +++
 
 Auto-héberger un serveur web chez soi peut être solution économique pour ne pas à payer des serveurs distants. On peut faire ce que l'on veut dessus et utiliser les technologies que l'on souhaite.
@@ -19,18 +20,18 @@ Les commandes qui seront donnés fonctionneront donc pour Fedora 37, mais seront
 Nous allons utiliser Nginx (prononcé Engine-X) en tant que reverse-proxy et serveur web.
 
 Nous allons commencer par installer Nginx :
-```
+```shell
 sudo dnf install nginx
 ```
 
 Il faut ensuite activer le service et l'autoriser au démarrage du serveur :
-```
+```shell
 sudo systemctl start nginx
 sudo systemctl enable nginx
 ```
 
 Pour vérifier si Nginx tourne bien, on peut d'abord regarder le statut du service, puis vérifier s'il expose bien le port 80. Pour cela, on va faire une requête `curl` sur le localhost et vérifier qu'il nous renvoie bien une page html :
-```
+```shell
 sudo systemctl status nginx
 curl -v 127.0.0.1:80
 ```
@@ -42,14 +43,14 @@ Si du code html s'affiche, c'est que Nginx a bien démarré et expose sur le por
 
 Nous allons voir maintenant comment configurer Nginx. Pour cela, nous allons créer un répertoire `nginx/conf` pour accueillir la configuration de Nginx.
 
-```
+```shell
 mkdir -p nginx/conf
 cd nginx/conf
 ```
 
 Maintenant que ceci est fait, nous allons créer un **lien symbolique** vers le dossier censé contenir les fichiers de configuration Nginx.
 
-```
+```shell
 ln -s /etc/nginx/conf.d
 ```
 
@@ -57,7 +58,7 @@ C'est dans ce dossier que nous mettrons tout les fichiers de configuration.
 
 Nous allons aussi créer un lien symbolique avec le fichier principal de configuration Nginx, qui va en fait inclure tout les autres fichiers de configuration contenu dans `conf.d`.
 
-```
+```shell
 ln -s /etc/nginx/nginx.conf
 ```
 
@@ -65,7 +66,7 @@ ln -s /etc/nginx/nginx.conf
 
 Dans le dossier `conf.d`, nous allons créer un fichier un fichier de configuration. Appelons ce fichier `servername.conf`.
 
-```
+```bash 
 server {
 
     server_name     servername.com www.servername.com;
