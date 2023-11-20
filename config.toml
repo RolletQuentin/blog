@@ -22,15 +22,13 @@ weight = 11
 
 
 [languages]
-  [languages.en-us]
-    contentDir = 'content/en-us'
-    languageCode = 'en-US'
+  [languages.en]
+    contentDir = 'content/en'
     title = "Quentin's blog"
     languageName = "English"
     weight = 2
   [languages.fr]
     contentDir = "content/fr"
-    languageCode = 'fr-FR'
     title = "Blog de Quentin"
     languageName = "Français"
     weight = 1
