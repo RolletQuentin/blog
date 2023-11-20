@@ -2,6 +2,7 @@
 title = 'Comment configurer Nginx'
 date = 2023-09-25T19:00:00+02:00
 draft = false
+weight = 1
 +++
 
 Auto-héberger un serveur web chez soi peut être solution économique pour ne pas à payer des serveurs distants. On peut faire ce que l'on veut dessus et utiliser les technologies que l'on souhaite.

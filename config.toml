@@ -1,7 +1,25 @@
 baseURL='https://rolletquentin.com/blog/'
 defaultContentLanguage = 'fr'
 defaultContentLanguageInSubdir = true
-theme = 'chameleon-theme'
+theme = 'hugo-theme-relearn'
+
+[params]
+
+author.name = "Quentin Rollet"
+collapsibleMenu = true
+disableLandingPageButton = true
+disableInlineCopyToClipBoard = true
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub"
+url = "https://github.com/RolletQuentin"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Portfolio"
+url = "https://rolletquentin.com/portfolio"
+weight = 11
+
 
 [languages]
   [languages.en-us]
@@ -9,12 +27,12 @@ theme = 'chameleon-theme'
     languageCode = 'en-US'
     title = "Quentin's blog"
     languageName = "English"
-    weight = 1
+    weight = 2
   [languages.fr]
     contentDir = "content/fr"
     languageCode = 'fr-FR'
     title = "Blog de Quentin"
     languageName = "Français"
-    weight = 2
+    weight = 1
 
 
