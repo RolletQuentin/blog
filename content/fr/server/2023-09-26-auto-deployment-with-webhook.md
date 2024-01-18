@@ -66,7 +66,7 @@ vim hooks.json
 ]
 ```
 
-Ce fichier correspond à un tableau `JSON` avec différent hooks.- Voyons plus en détail comment cela fonctionne :
+Ce fichier correspond à un tableau `JSON` avec différent hooks. Voyons plus en détail comment cela fonctionne :
 - `id` correspond au nom du hook;
 - `execute-command` correspond à la commande que le hook doit exécuter lorsque le hook est appelé;
 - `pass-arguments-to-command` sert à passer des argument à la commande. Cela peut être utile si le script que vous utiliser pour déployer votre application prend des arguments;
@@ -141,6 +141,7 @@ webhook/webhook -hooks hooks.json &
 C'est bon, votre serveur webhook est opérationnel ! Vous pouvez y accéder en local sur le `port 9000`.
 
 Pour accéder à votre webhook depuis l'extérieur, il faut ajouter une route à votre serveur Nginx. Nous allons modifier le fichier de configuration et utiliser Nginx comme reverse proxy :
+
 ```shell
 server {
 
