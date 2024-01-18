@@ -1,6 +1,6 @@
 +++
 title = 'Introduction aux cryptomonnaies'
-date = 2024-01-19T08:00:00+01:00
+date = 2024-01-18T08:00:00+01:00
 draft = false
 +++
 
