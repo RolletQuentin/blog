@@ -8,6 +8,29 @@ compile_sass = true
 build_search_index = true
 
 theme = "linkita"
+author = "Quentin Rollet"
+default_language = "fr"
+title = "Blog"
+description = "Blog de Quentin Rollet, développeur web et mobile"
+
+# Automatically generate a feed.
+# Default value: false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[[taxonomies]]
+name = "categories"
+feed = true
+paginate_by = 4
+
+[[taxonomies]]
+name = "tags"
+feed = true
+paginate_by = 4
+
+[languages.en]
+title = "Blog"
+description = "Blog de Quentin Rollet, développeur web et mobile"
 
 [markdown]
 # Whether to do syntax highlighting
@@ -15,4 +38,33 @@ theme = "linkita"
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
+header_menu_name = "multilingual_menu"
+relative_urls = true
+
+[extra.menus]
+multilingual_menu = [
+  { url = "/pages/about/", names = { en = "About", fr = "À propos" } },
+  { url = "/pages/projects/", names = { en = "Projects", fr = "Projets" } },
+  { url = "/blog/", names = { en = "Archive", fr = "Archives" } },
+  { url = "/categories/", names = { en = "Categories", fr = "Catégories" } },
+  { url = "/tags/", names = { en = "Tags", fr = "Étiquettes" } },
+]
+
+[extra.profiles.RolletQuentin]
+
+avatar_url = "icons/pdp.jpg"
+avatar_alt = "Photo de profil de Quentin Rollet"
+avatar_invert = false # Invert avatar colors (for dark mode)
+name = "Quentin Rollet"
+bio = ""
+
+# Social icons.
+# "name" should be the file name of "static/icons/*.svg" or
+# the icon name of https://simpleicons.org/
+# "url" supports "$BASE_URL".
+# Other variables: "urls", "title", "titles".
+social = [
+    { name = "github", url = "https://github.com/RolletQuentin" },
+    { name = "email", url = "mailto:quentin.rollet@proton.me" },
+    { name = "rss", url = "$BASE_URL/atom.xml" },
+]
