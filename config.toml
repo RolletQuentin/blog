@@ -44,11 +44,11 @@ comment = true
 
 [extra.menus]
 multilingual_menu = [
-  { url = "/pages/about/", names = { en = "About", fr = "À propos" } },
-  { url = "/pages/projects/", names = { en = "Projects", fr = "Projets" } },
-  { url = "/blog/", names = { en = "Archive", fr = "Archives" } },
-  { url = "/categories/", names = { en = "Categories", fr = "Catégories" } },
-  { url = "/tags/", names = { en = "Tags", fr = "Étiquettes" } },
+  { url = "/blog/pages/about/", names = { en = "About", fr = "À propos" } },
+  { url = "/blog/pages/projects/", names = { en = "Projects", fr = "Projets" } },
+  { url = "/blog/blog/", names = { en = "Archive", fr = "Archives" } },
+  { url = "/blog/categories/", names = { en = "Categories", fr = "Catégories" } },
+  { url = "/blog/tags/", names = { en = "Tags", fr = "Étiquettes" } },
 ]
 
 [extra.profiles.RolletQuentin]
