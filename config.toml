@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://blog.rolletquentin.com"
+base_url = "https://rolletquentin.github.io/blog/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -40,6 +40,7 @@ highlight_code = true
 [extra]
 header_menu_name = "multilingual_menu"
 relative_urls = true
+comment = true
 
 [extra.menus]
 multilingual_menu = [
@@ -56,7 +57,11 @@ avatar_url = "icons/pdp.jpg"
 avatar_alt = "Photo de profil de Quentin Rollet"
 avatar_invert = false # Invert avatar colors (for dark mode)
 name = "Quentin Rollet"
-bio = ""
+bio = "Ingénieur DevOps & Développeur Full Stack"
+
+[extra.profiles.RolletQuentin.en]
+avatar_alt = "Profile picture of Quentin Rollet"
+bio = "DevOps Engineer & Full Stack Developer"
 
 # Social icons.
 # "name" should be the file name of "static/icons/*.svg" or
@@ -65,6 +70,28 @@ bio = ""
 # Other variables: "urls", "title", "titles".
 social = [
     { name = "github", url = "https://github.com/RolletQuentin" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/rollet-quentin/" },
     { name = "email", url = "mailto:quentin.rollet@proton.me" },
     { name = "rss", url = "$BASE_URL/atom.xml" },
 ]
+
+[extra.giscus]
+repo = "RolletQuentin/blog"
+repo_id = "R_kgDOKVax5A"
+category = "Comments"
+category_id = "DIC_kwDOKVax5M4CwrbI"
+mapping = "pathname"
+# Default value: 1
+strict = 1
+# Default value: 0
+reactions_enabled = 1
+# Default value: 0
+emit_metadata = 1
+# Default value: "top"
+input_position = "top"
+# Default value: "light"
+theme = "light"
+# Default value: "en"
+lang = "fr"
+# Default value: "lazy"
+loading = "lazy"
