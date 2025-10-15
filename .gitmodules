@@ -1,7 +1,0 @@
-[submodule "themes/hugo-theme-relearn"]
-	path = themes/hugo-theme-relearn
-	url = https://github.com/McShelby/hugo-theme-relearn
-[submodule "themes/linkita"]
-	path = themes/linkita
-	url = https://codeberg.org/salif/linkita.git
-	branch = linkita
