@@ -59,10 +59,6 @@ avatar_invert = false # Invert avatar colors (for dark mode)
 name = "Quentin Rollet"
 bio = "Ingénieur DevOps & Développeur Full Stack"
 
-[extra.profiles.RolletQuentin.en]
-avatar_alt = "Profile picture of Quentin Rollet"
-bio = "DevOps Engineer & Full Stack Developer"
-
 # Social icons.
 # "name" should be the file name of "static/icons/*.svg" or
 # the icon name of https://simpleicons.org/
@@ -74,6 +70,10 @@ social = [
     { name = "email", url = "mailto:quentin.rollet@proton.me" },
     { name = "rss", url = "$BASE_URL/atom.xml" },
 ]
+
+[extra.profiles.RolletQuentin.en]
+avatar_alt = "Profile picture of Quentin Rollet"
+bio = "DevOps Engineer & Full Stack Developer"
 
 [extra.giscus]
 repo = "RolletQuentin/blog"
