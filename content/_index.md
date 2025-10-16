@@ -1,5 +1,5 @@
 +++
-title = "Salut"
+title = "Blog de Quentin"
 description = ""
 sort_by = "date"
 paginate_by = 4
