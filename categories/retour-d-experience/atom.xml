@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
-    <title>Blog</title>
+    <title>Blog - Retour d&#x27;expérience</title>
     <subtitle>Blog de Quentin Rollet, développeur web et mobile</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://rolletquentin.github.io/blog/atom.xml"/>
+    <link rel="self" type="application/atom+xml" href="https://rolletquentin.github.io/blog/categories/retour-d-experience/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://rolletquentin.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2025-10-15T00:00:00+00:00</updated>
-    <id>https://rolletquentin.github.io/blog/atom.xml</id>
+    <id>https://rolletquentin.github.io/blog/categories/retour-d-experience/atom.xml</id>
     <entry xml:lang="fr">
         <title>Degooglisation : Reprendre le contrôle de vos données</title>
         <published>2025-10-15T00:00:00+00:00</published>
@@ -63,28 +63,6 @@
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
 &lt;p&gt;La dégooglisation est un processus qui demande du temps et de la patience, mais qui peut grandement améliorer la vie privée en ligne. En choisissant des alternatives plus respectueuses de la vie privée, on reprend le contrôle sur ses données et on réduit sa dépendance aux géants du web. Il ne s&#x27;agit pas de rejeter complètement les services populaires, mais plutôt de faire des choix éclairés et de privilégier les solutions qui respectent nos valeurs. J&#x27;espère que cet article vous a donné envie de réfléchir à votre propre utilisation des services en ligne, et peut-être même de commencer votre propre démarche de dégooglisation !&lt;&#x2F;p&gt;
-</content>
-        
-    </entry>
-    <entry xml:lang="fr">
-        <title>Bienvenue sur mon blog !</title>
-        <published>2025-10-13T00:00:00+00:00</published>
-        <updated>2025-10-13T00:00:00+00:00</updated>
-        
-        <author>
-          <name>
-            
-              Quentin Rollet
-            
-          </name>
-        </author>
-        
-        <link rel="alternate" type="text/html" href="https://rolletquentin.github.io/blog/blog/hello/"/>
-        <id>https://rolletquentin.github.io/blog/blog/hello/</id>
-        
-        <content type="html" xml:base="https://rolletquentin.github.io/blog/blog/hello/">&lt;h2 id=&quot;hello-world&quot;&gt;Hello, world!&lt;&#x2F;h2&gt;
-&lt;p&gt;Bienvenue à tous sur mon blog ! C&#x27;est avec plaisir que je vous accueille ici pour partager ma passion pour l&#x27;informatique, la programmation et bien plus encore. Vous y trouverez des articles, des tutoriels et des réflexions sur divers sujets technologiques.&lt;&#x2F;p&gt;
-&lt;p&gt;Vous pourrez également trouver sur ce site une section dédiée à mes projets personnels, où je partage le code source et les détails de mes réalisations.&lt;&#x2F;p&gt;
 </content>
         
     </entry>

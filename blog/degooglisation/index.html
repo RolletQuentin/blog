@@ -1,0 +1,317 @@
+<!doctype html>
+<html class="not-ready lg:text-base overflow-y-scroll scroll-pt-14 scheme-light dark:scheme-dark" lang="fr">
+
+<head prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="generator" content="Zola v0.21.0" />
+  <title>Degooglisation : Reprendre le contrôle de vos données | Blog</title>
+  <meta property="og:site_name" content="Blog" />
+  <meta property="og:title" content="Degooglisation : Reprendre le contrôle de vos données" />
+  <meta name="description" content="Découvrer comment j&apos;ai dégooglisé (en partie) ma vie numérique." />
+  <meta property="og:description" content="Découvrer comment j&apos;ai dégooglisé (en partie) ma vie numérique." />
+  <meta property="og:url" content="https://rolletquentin.github.io/blog/blog/degooglisation/" />
+  <link rel="canonical" href="https://rolletquentin.github.io/blog/blog/degooglisation/" />
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="2025-10-15T00:00:00+00:00" />
+  <meta property="article:tag" content="Open Source" />
+  <meta property="article:tag" content="Degooglisation" />
+  <meta property="article:tag" content="Vie privée" />
+  <link rel="alternate" href="https://rolletquentin.github.io/blog/blog/degooglisation/" hreflang="fr" data-href="../../blog/degooglisation/" />
+  <link rel="alternate" type="application/atom+xml" href="../../atom.xml" title="Blog | Atom" />
+  <!-- Begin Head inject -->
+  
+  <!-- End Head inject -->
+  <link rel="stylesheet" href="../../main.min.css?h=e5f9dea6af2451fd4951" />
+  <link rel="stylesheet" href="../../icons.css?h=0e5f84b7441420713dd4" />
+  <style>:root{--bg: #f4f4f5; --header: #e4e4e7;} :root.dark{--bg: #18181b; --header: #27272a;}</style>
+  <meta name="theme-color" data-light="#e4e4e7" data-dark="#27272a" content="#e4e4e7" />
+  <link rel="icon" type="image/x-icon" sizes="16x16" href="../../favicon.ico" />
+  <link rel="apple-touch-icon" type="image/png" href="../../apple-touch-icon.png?h=58bee300054c5308feb3" />
+  <link rel="icon" type="image/png" href="../../android-icon.png?h=8d80ec95446bd2c36826" />
+  <script src="../../js/linkita.min.js?h=ef31ef53cc07abf6aca6"></script>
+  <script src="../../js/linkita-search.min.js?h=e3fea5ec115ce704318e"></script>
+  <!-- Begin Head End inject -->
+  <script defer src="https://umami.rolletquentin.com/script.js" data-website-id="280b58f5-782e-427b-a148-f5e85a614cea"></script>
+  <!-- End Head End inject -->
+</head>
+
+<body class="text-black duration-100 ease-out dark:text-white">
+  <!-- Header -->
+<header class="header fixed top-0 z-40 mx-auto min-h-13 w-full header-icons">
+  <div class="mx-auto w-full max-w-4xl p-2.5 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center min-h-8">
+        <a title="Vers la page d&#x27;accueil" accesskey="!"
+          href="../../" class="text-2xl font-semibold">Blog</a>
+        <button type="button" title="Changer le jeu de couleurs" accesskey="$"
+          onclick="window.linkita.toggleDarkMode();" ondblclick="window.linkita.resetDarkMode();"
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0px]
+          bg-center bg-no-repeat bg-cover [background-image:var(--icon-theme-dark)] dark:[background-image:var(--icon-theme-light)] dark:invert"
+        ></button>
+        <button type="button" title="Rechercher" accesskey="/"
+          onclick="window.linkita.toggleSearch();"
+          class="btn-search ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0px] bg-center bg-no-repeat bg-cover [background-image:var(--icon-search)] dark:invert"
+        ></button>
+        <script>window.linkita.initSearchButton({ scripts: ["../../elasticlunr.min.js", "../../search_index.fr.js"] });</script>
+        <button type="button" title="Aller à la traduction de la page" accesskey=";"
+          class="btn-translations hidden ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0px] bg-center bg-no-repeat bg-cover [background-image:var(--icon-translations)] dark:invert"
+        ></button>
+        <script>window.linkita.initTranslationsButton({btn: document.querySelector(".btn-translations"), rel: "true"});</script>
+      </div>
+      <div title="Menu" role="button" accesskey="+" tabindex="0"
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        onclick="window.linkita.toggleHeaderMenu();"
+        onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || window.linkita.toggleHeaderMenu() : true;"
+      ></div>
+    </div>
+    <nav class="flex w-full items-center lg:w-auto">
+      <menu
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0">
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="/blog/pages/about/"
+          >À propos</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="/blog/pages/projects/"
+          >Projets</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="/blog/blog/"
+          >Archives</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="/blog/categories/"
+          >Catégories</a>
+        </li>
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="/blog/tags/"
+          >Étiquettes</a>
+        </li>
+      </menu>
+      <!-- Begin Header Nav inject -->
+      
+      <!-- End Header Nav inject -->
+    </nav>
+  </div>
+</header>
+
+  <!-- Begin Body Start inject -->
+  
+  <!-- End Body Start inject -->
+  <main class="prose prose-neutral dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg
+    relative mx-auto min-h-[calc(100vh-4rem)] max-w-3xl px-4 pt-28 lg:pt-32 pb-12 break-words">
+      <!-- Search -->
+<div id="linkita-search-wrapper" class="hidden">
+  <ul id="linkita-search-results"></ul>
+</div>
+
+    
+<article>
+  <!-- Begin Page Start inject -->
+  
+  <!-- End Page Start inject -->
+
+  <header class="mb-16">
+    <h1 class="my-0! pb-2.5">Degooglisation : Reprendre le contrôle de vos données</h1>
+    <!-- Page Info -->
+<div class="text-sm antialiased opacity-80"><time
+      datetime="2025-10-15T00:00:00+00:00">2025-10-15</time><span
+        class="middot"></span><time
+    datetime="PT0H9M0S">9&nbsp;min</time><span
+      class="middot"></span><span>Quentin Rollet</span>
+</div>
+
+  </header>
+  <!-- TOC -->
+<nav class="block-bg prose-a:secondary-link mb-12 rounded-lg p-2 text-lg">
+  <details>
+    <summary class="select-none py-0.5 lg:py-1 pl-4" accesskey="=">
+      <span class="cursor-pointer">Table des matières</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        <li class="ps-[0px]">
+          <a class="no-underline hover:underline" href="../../blog/degooglisation/#introduction">Introduction</a>
+        </li>
+        <li class="ps-[0px]">
+          <a class="no-underline hover:underline" href="../../blog/degooglisation/#qu-est-ce-que-la-degooglisation">Qu&#x27;est-ce que la dégooglisation ?</a>
+        </li>
+        <li class="ps-[0px]">
+          <a class="no-underline hover:underline" href="../../blog/degooglisation/#etapes-de-ma-degooglisation">Étapes de ma dégooglisation</a>
+          <ul>
+            <li class="ps-[0px]">
+              <a class="no-underline hover:underline" href="../../blog/degooglisation/#changement-de-navigateur-et-moteur-de-recherche">Changement de navigateur et moteur de recherche</a>
+            </li>
+            <li class="ps-[0px]">
+              <a class="no-underline hover:underline" href="../../blog/degooglisation/#migration-de-gmail-vers-proton-mail">Migration de Gmail vers Proton Mail</a>
+            </li>
+            <li class="ps-[0px]">
+              <a class="no-underline hover:underline" href="../../blog/degooglisation/#immich-une-alternative-a-google-photos">Immich : une alternative à Google Photos</a>
+            </li>
+            <li class="ps-[0px]">
+              <a class="no-underline hover:underline" href="../../blog/degooglisation/#nextcloud-un-cloud-personnel">Nextcloud : un cloud personnel</a>
+            </li>
+            <li class="ps-[0px]">
+              <a class="no-underline hover:underline" href="../../blog/degooglisation/#home-assistant-la-domotique-respectueuse-de-la-vie-privee">Home Assistant : la domotique respectueuse de la vie privée</a>
+            </li>
+            <li class="ps-[0px]">
+              <a class="no-underline hover:underline" href="../../blog/degooglisation/#supprimer-google-de-son-telephone">Supprimer Google de son téléphone</a>
+            </li>
+          </ul>
+        </li>
+        <li class="ps-[0px]">
+          <a class="no-underline hover:underline" href="../../blog/degooglisation/#quelques-points-a-considerer">Quelques points à considérer</a>
+        </li>
+        <li class="ps-[0px]">
+          <a class="no-underline hover:underline" href="../../blog/degooglisation/#conclusion">Conclusion</a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</nav>
+
+  <!-- Content -->
+  <section><h2 id="introduction">Introduction</h2>
+<p>Bienvenue sur mon premier article de blog ! Aujourd'hui, j'aimerais vous partager un sujet qui me tient particulièrement à cœur : le respect de ma vie privée. Il y a quelques années, j'ai reçu mon premier Raspberry Pi, et j'ai en même temps découvert le monde de l'open source. Déployer mon propre serveur m'a permis de comprendre que des solutions alternatives aux services proposés par les géants du web existent, et qu'elles sont souvent plus respectueuses de la vie privée.</p>
+<p>C'est ainsi que j'ai commencé petit à petit à "degoogliser" ma vie numérique. Dans cet article, je vais vous expliquer les étapes que j'ai suivies pour réduire ma dépendance aux services de Google et d'autres grandes entreprises technologiques, et comment cela a amélioré ma vie en ligne.</p>
+<h2 id="qu-est-ce-que-la-degooglisation">Qu'est-ce que la dégooglisation ?</h2>
+<p>Avant toute chose, il est important de comprendre ce qu'est la dégooglisation. Il s'agit à l'origine une démarche visant à réduire l'utilisation des services de Google. Cependant, le concept peut être étendu à d'autres entreprises qui collectent et exploitent nos données personnelles à des fins publicitaires ou commerciales. L'objectif principal de la dégooglisation est d'abord de prendre conscience de l'ampleur de la collecte de données, puis de chercher des alternatives plus respectueuses de la vie privée.</p>
+<p>Il faut néanmoins garder à l'esprit que la dégooglisation totale est un objectif difficile à atteindre, et je ne pense pas qu'il faut en arriver à cet extrême. Étant un gros consommateur de Youtube (Google) et de Twitch (Amazon), j'ai conscience que ces services ne sont pas remplaçables. Je ne dis pas non plus qu'il faut arrêter les réseaux sociaux, mais qu'il faut être conscient de ce que l'on utilise et pourquoi.</p>
+<h2 id="etapes-de-ma-degooglisation">Étapes de ma dégooglisation</h2>
+<h3 id="changement-de-navigateur-et-moteur-de-recherche">Changement de navigateur et moteur de recherche</h3>
+<p>Google est avant toute chose connu pour son moteur de recherche et son navigateur Chrome. Pour le navigateur, je me suis naturellement tournée vers Mozilla Firefox, un navigateur open source qui respecte un peu plus la vie privée des utilisateurs. Il existe d'autres navigateurs comme Brave ou Opera, mais ceux-ci utilisant le moteur de rendu Chromium (utilisé par Google Chrome), j'ai préféré opter pour une alternative plus indépendante.</p>
+<p>Pour le moteur de recherche, j'ai également cherché une option plus respectueuse de la vie privée. Pour ma part, j'ai opté pour <a href="https://duckduckgo.com/">DuckDuckGo</a>, qui ne collecte pas de données personnelles et ne suit pas les utilisateurs à travers le web. D'autres options populaires incluent <a href="https://www.qwant.com/">Qwant</a> et <a href="https://www.startpage.com/">Startpage</a>.</p>
+<h3 id="migration-de-gmail-vers-proton-mail">Migration de Gmail vers Proton Mail</h3>
+<p>Les emails représentent une mine d'or pour les entreprises qui cherchent à collecter des données. S'inscrire sur un site web ou à une newsletter avec une adresse Gmail, c'est informer directement Google de vos activités en ligne. Pour cette raison, j'ai décidé de commencer ma migration vers <a href="https://proton.me/fr/mail">Proton Mail</a>, un service de messagerie sécurisé et respectueux de la vie privée. Proton Mail offre un chiffrement de bout en bout, ce qui signifie que seuls l'expéditeur et le destinataire peuvent lire les messages.</p>
+<p>C'est malgré tout l'étape la plus difficile, car il est chronophage de migrer toutes ses adresses email, et pour certains services c'est même impossible. De plus, le bouton "Se connecter avec Google" est omniprésent sur le web, et il est tentant de l'utiliser pour gagner du temps. Il faut ainsi être patient et méthodique dans cette démarche, qui peut prendre plusieurs mois voire années selon l'utilisation que l'on fait de son adresse email.</p>
+<p>J'ai profité d'avoir une adresse mail Proton pour migrer mon calendrier vers Proton Calendar, qui propose un calendrier toutefois encore un peu limité en fonctionnalités par rapport à Google Calendar, mais qui m'est amplement suffisant.</p>
+<p>On peut cependant se poser deux questions :</p>
+<ol>
+<li>Pourquoi avoir une adresse email Proton, alors que eux aussi peuvent savoir sur quels sites on s'inscrit ?</li>
+<li>Pourquoi ne pas avoir choisi un service de messagerie auto-hébergé ?</li>
+</ol>
+<p>Pour la première question, c'est avant tout une question de confiance. Proton est une entreprise suisse, et la Suisse a des lois sur la protection de la vie privée plus strictes que la plupart des pays en Europe. La Suisse ne fait pas non plus partie des pays de l'<a href="https://tuta.com/fr/blog/fourteen-eyes-countries">alliance "14 Eyes"</a>, qui partagent des informations de surveillance entre eux (bien que les autorités suisses puissent coopérer avec d'autres pays dans certains cas). Dans tout les cas, seuls les adresses mails et les objets des mails sont visibles par Proton, le contenu des mails étant chiffré de bout en bout.</p>
+<p>Pour la deuxième question, j'ai envisagé d'auto-héberger mon propre serveur de messagerie, mais cela demande du temps de maintenance. En plus de cela, il faut s'assurer que le serveur n'est pas sur une liste noire, ce qui peut très vite arriver si une autre messagerie décide de signaler votre serveur comme source de spam. Enfin, si son serveur de messagerie tombe en panne, on ne peut plus recevoir d'emails, ce qui peut être problématique. J'ai donc préféré opter pour une solution clé en main, même si cela implique de faire confiance à un tiers.</p>
+<h3 id="immich-une-alternative-a-google-photos">Immich : une alternative à Google Photos</h3>
+<p>Google Photos est un service très pratique pour sauvegarder et organiser ses photos. Je ne pense pas qu'il y ait une analyse des photos pour en extraire des données, sinon ce serait vraiment très limite de la part de Google. Mais quitte à se dégoogliser, autant le faire jusqu'au bout ! J'ai donc décidé d'auto-héberger <a href="https://immich.app/">Immich</a>, une alternative open source à Google Photos. Immich permet de sauvegarder automatiquement les photos de son téléphone, de les organiser et de les partager avec ses proches, le tout en gardant le contrôle sur ses données. Un des avantages majeurs d'une solution auto-hébergée est l'espace de stockage, qui est souvent limité sur les services gratuits comme Google Photos, mais qui dépend uniquement de la capacité de son propre serveur.</p>
+<p>Des fonctionnalités sympathiques comme la reconnaissance faciale ou une carte interactive sont également présentes, ce qui rend l'expérience utilisateur très agréable.</p>
+<h3 id="nextcloud-un-cloud-personnel">Nextcloud : un cloud personnel</h3>
+<p>Comment ne pas citer <a href="https://nextcloud.com/">Nextcloud</a> lorsqu'on parle de dégooglisation ? Nextcloud est une suite d'applications auto-hébergées qui permet de créer son propre cloud personnel en remplacement des services comme Google Drive, Dropbox ou iCloud. Avec Nextcloud, on peut stocker et synchroniser des fichiers, gérer un calendrier, des contacts, et même collaborer sur des documents en ligne. Bien que je n'ai pas encore sauté le pas pour l'instant n'ayant pas encore de besoin, Nextcloud est une solution très complète et flexible qui mérite d'être explorée.</p>
+<h3 id="home-assistant-la-domotique-respectueuse-de-la-vie-privee">Home Assistant : la domotique respectueuse de la vie privée</h3>
+<p>Pour ceux qui s'intéressent à la domotique, <a href="https://www.home-assistant.io/">Home Assistant</a> est une plateforme open source qui permet de contrôler et d'automatiser les appareils connectés dans sa maison. Contrairement à des solutions propriétaires comme Google Home ou Amazon Alexa, Home Assistant peut être auto-hébergé, ce qui signifie que les données restent chez soi et ne sont pas envoyées à des serveurs externes. N'ayant pas encore d'objets connectés, j'utilise Home Assistant comme une plateforme d'expérimentation, notamment avec des assistants vocaux basés sur des LLMs open source.</p>
+<h3 id="supprimer-google-de-son-telephone">Supprimer Google de son téléphone</h3>
+<p>C'est clairement l'étape la plus difficile, surtout si on utilise un smartphone Android. En effet, dans la plus grande majorité des cas, les smartphones Android sont livrés avec les services Google préinstallés, et il est souvent impossible de les désinstaller sans rooter son téléphone. Pire que ça, Google est administrateur de l'appareil alors que vous ne l'êtes pas. Cependant, des OS alternatifs comme <a href="https://grapheneos.org/">GrapheneOS</a> ou <a href="https://calyxos.org/">CalyxOS</a> existent, et permettent d'avoir un téléphone Android sans les services Google. Ces OS sont basés sur le projet AOSP (Android Open Source Project), mais avec des modifications pour améliorer la sécurité et la vie privée.</p>
+<p>J'utilise personnellement GrapheneOS sur un Pixel 9, et je suis très satisfait de cette expérience. Il y a tellement de choses à dire sur GrapheneOS et sur la manière qu'il a modifié mon utilisation du téléphone que j'écrirais un article dédié à ce sujet.</p>
+<h2 id="quelques-points-a-considerer">Quelques points à considérer</h2>
+<p>Se dégoogliser c'est bien, mais il faut aussi être conscient de certains points :</p>
+<ul>
+<li><strong>La nécessité d'avoir un serveur</strong> : J'ai eu l'occasion de présenter ici plusieurs services auto-hébergés, mais j'ai bien conscience que tout le monde n'a pas un serveur à disposition. Des alternatives hébergés existent, mais elles sont souvent payantes pour pouvoir financer le service.</li>
+<li><strong>La courbe d'apprentissage</strong> : Utiliser des services alternatifs peut demander un certain temps d'adaptation. Les interfaces peuvent être moins intuitives, et certaines fonctionnalités peuvent manquer par rapport aux services grand public.</li>
+<li><strong>Le risque d'indisponibilité</strong> : En auto-hébergeant ses services, on dépend de la disponibilité de son propre serveur. Si celui-ci tombe en panne, on peut perdre l'accès à ses données. Il faut aussi penser à faire des sauvegardes régulières, monitorer les mises à jour de sécurité, etc. C'est un peu plus de maintenance, mais c'est aussi une bonne occasion d'apprendre et de mieux comprendre comment fonctionnent ces services.</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>La dégooglisation est un processus qui demande du temps et de la patience, mais qui peut grandement améliorer la vie privée en ligne. En choisissant des alternatives plus respectueuses de la vie privée, on reprend le contrôle sur ses données et on réduit sa dépendance aux géants du web. Il ne s'agit pas de rejeter complètement les services populaires, mais plutôt de faire des choix éclairés et de privilégier les solutions qui respectent nos valeurs. J'espère que cet article vous a donné envie de réfléchir à votre propre utilisation des services en ligne, et peut-être même de commencer votre propre démarche de dégooglisation !</p>
+</section>
+  <hr />
+  <!-- Post Taxonomies -->
+<footer class="mt-12 flex flex-col" tabindex="-1" accesskey="_">
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mr-1.5 mb-1.5 rounded-lg px-5 py-1.5">Catégories</span>
+    
+    <a
+      class="block-bg block-hover mr-1.5 mb-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="../../categories/article/">Article</a>
+    
+    <a
+      class="block-bg block-hover mr-1.5 mb-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="../../categories/retour-d-experience/">Retour d&#x27;expérience</a>
+    
+  </div>
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mr-1.5 mb-1.5 rounded-lg px-5 py-1.5">Tags</span>
+    
+    <a
+      class="block-bg block-hover mr-1.5 mb-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="../../tags/open-source/">Open Source</a>
+    
+    <a
+      class="block-bg block-hover mr-1.5 mb-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="../../tags/degooglisation/">Degooglisation</a>
+    
+    <a
+      class="block-bg block-hover mr-1.5 mb-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="../../tags/vie-privee/">Vie privée</a>
+    
+  </div>
+</footer>
+
+  <!-- Post Nav -->
+<nav class="block-bg mt-12 flex flex-wrap rounded-lg text-lg">
+  <a
+    class="block-hover-mask ml-auto flex min-w-[50%] grow items-center justify-end rounded-r-md p-6 pl-3 font-semibold no-underline"
+    href="../../blog/hello/" accesskey="."
+    ><span>Bienvenue sur mon blog !</span><span class="ml-1.5">&#8250;</span></a>
+</nav>
+
+  <!-- Comment -->
+<div class="giscus mt-12"></div>
+<script
+  src="https://giscus.app/client.js"
+  data-repo="RolletQuentin/blog"
+  data-repo-id="R_kgDOKVax5A"
+  data-category="Comments"
+  data-category-id="DIC_kwDOKVax5M4CwrbI"
+  data-mapping="pathname"
+  data-strict="1"
+  data-reactions-enabled="1"
+  data-emit-metadata="1"
+  data-input-position="top"
+  data-theme="light"
+  data-lang="fr"
+  data-loading="lazy"
+  crossorigin="anonymous"
+  async
+></script>
+
+  <!-- Begin Page End inject -->
+  
+  <!-- End Page End inject -->
+</article>
+
+  </main>
+  <!-- Footer -->
+<footer class="mx-auto flex lg:mt-5 max-w-3xl flex-wrap items-center px-4 py-3 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+  © <time datetime="2025">2025</time> Quentin Rollet
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <span class="mr-6 lg:ml-6">
+      <a class="link" href="https://www.getzola.org/" target="_blank">Propulsé par Zola</a>
+    </span>
+    <a class="link" href="https://www.getzola.org/themes/linkita/" target="_blank">&#9998; Linkita</a>
+  </div>
+  <!-- Begin Footer inject -->
+  
+  <!-- End Footer inject -->
+</footer>
+
+  
+
+  <!-- Begin Body End inject -->
+  
+  <!-- End Body End inject -->
+</body>
+
+</html>

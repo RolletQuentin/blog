@@ -7,11 +7,27 @@
   <loc>https://rolletquentin.github.io/blog/blog/</loc>
 </url>
 <url>
+  <loc>https://rolletquentin.github.io/blog/blog/degooglisation/</loc>
+  <lastmod>2025-10-15</lastmod>
+</url>
+<url>
   <loc>https://rolletquentin.github.io/blog/blog/hello/</loc>
   <lastmod>2025-10-13</lastmod>
 </url>
 <url>
   <loc>https://rolletquentin.github.io/blog/categories/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/categories/article/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/categories/article/page/1/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/categories/retour-d-experience/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/categories/retour-d-experience/page/1/</loc>
 </url>
 <url>
   <loc>https://rolletquentin.github.io/blog/en/</loc>
@@ -43,5 +59,23 @@
 </url>
 <url>
   <loc>https://rolletquentin.github.io/blog/tags/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/tags/degooglisation/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/tags/degooglisation/page/1/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/tags/open-source/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/tags/open-source/page/1/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/tags/vie-privee/</loc>
+</url>
+<url>
+  <loc>https://rolletquentin.github.io/blog/tags/vie-privee/page/1/</loc>
 </url>
 </urlset>

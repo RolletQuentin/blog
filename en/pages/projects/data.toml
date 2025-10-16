@@ -1,8 +1,17 @@
 [[project]]
-name = "lorem"
-desc = "Lorem ipsum dolor sit."
-tags = ["lorem", "ipsum"]
+name = "Portfolio Game"
+desc = "Création d'un jeu en 2D isométrique pour présenter mes projets."
+tags = ["Jeux vidéo", "Godot"]
 links = [
-    { name = "homepage", url = "https://example.com" },
-    { name = "source", url = "https://example.com" },
+    { name = "homepage", url = "https://rolletquentin.github.io/portfolio-game" },
+    { name = "source", url = "https://github.com/RolletQuentin/portfolio-game" },
+]
+
+[[project]]
+name = "Blog"
+desc = "Ce blog fait partie d'un de mes projets !"
+tags = ["Blog", "Zola"]
+links = [
+    { name = "homepage", url = "https://rolletquentin.github.io/blog" },
+    { name = "source", url = "https://github.com/RolletQuentin/blog" },
 ]
