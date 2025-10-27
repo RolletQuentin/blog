@@ -5,8 +5,53 @@
     <link rel="self" type="application/atom+xml" href="https://rolletquentin.github.io/blog/tags/vie-privee/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://rolletquentin.github.io/blog/"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-10-15T00:00:00+00:00</updated>
+    <updated>2025-10-26T00:00:00+00:00</updated>
     <id>https://rolletquentin.github.io/blog/tags/vie-privee/atom.xml</id>
+    <entry xml:lang="fr">
+        <title>Mon expérience avec GrapheneOS</title>
+        <published>2025-10-26T00:00:00+00:00</published>
+        <updated>2025-10-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Quentin Rollet
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://rolletquentin.github.io/blog/blog/graphene-os/"/>
+        <id>https://rolletquentin.github.io/blog/blog/graphene-os/</id>
+        
+        <content type="html" xml:base="https://rolletquentin.github.io/blog/blog/graphene-os/">&lt;p&gt;Dans mon dernier article sur la &lt;a href=&quot;https:&#x2F;&#x2F;rolletquentin.github.io&#x2F;blog&#x2F;blog&#x2F;degooglisation&#x2F;&quot;&gt;degooglisation&lt;&#x2F;a&gt; dans lequel j&#x27;ai partagé mes réflexions sur la réduction de ma dépendance aux services Google, j&#x27;ai mentionné que j&#x27;avais décidé d&#x27;essayer GrapheneOS comme système d&#x27;exploitation pour mon smartphone. Après plusieurs mois d&#x27;utilisation, je souhaite partager mon expérience et mes impressions sur cette alternative axée sur la vie privée.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;qu-est-ce-que-grapheneos&quot;&gt;Qu&#x27;est-ce que GrapheneOS ?&lt;&#x2F;h2&gt;
+&lt;p&gt;Quand on parle de système d&#x27;exploitation alternatif pour smartphones, plusieurs noms reviennent souvent : &lt;a href=&quot;https:&#x2F;&#x2F;lineageos.org&#x2F;&quot;&gt;LineageOS&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;e.foundation&#x2F;e-os&#x2F;&quot;&gt;e&#x2F;OS&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;grapheneos.org&#x2F;&quot;&gt;GrapheneOS&lt;&#x2F;a&gt; et bien d&#x27;autres. GrapheneOS se distingue par son accent mis sur la sécurité et la vie privée. Basé sur Android Open Source Project (AOSP), il intègre des améliorations de sécurité avancées et des fonctionnalités conçues pour protéger les données des utilisateurs contre les menaces potentielles. Un des gros avantages est qu&#x27;il n&#x27;inclut pas les services Google par défaut, et grâce à son système de sandbox et de permissions strictes, il limite l&#x27;accès des applications aux données sensibles.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;installation-et-configuration&quot;&gt;Installation et configuration&lt;&#x2F;h2&gt;
+&lt;p&gt;L&#x27;installation est très facile, cela se fait en branchant son téléphone à son ordinateur, et grâce à leur outil d&#x27;installation directement depuis un navigateur web, on peut flasher le téléphone en quelques clics. Un des problèmes que je trouve avec GrapheneOS, c&#x27;est qu&#x27;il est uniquement compatible avec les appareils Google Pixel. Donc pour pouvoir me dégoogliser, j&#x27;ai dû donner de l&#x27;argent à Google, ce qui peut paraître un peu paradoxal 😬. Cependant, comme je disais dans mon dernier article, l&#x27;objectif est de comprendre comment les données personnelles peuvent être récupérées et utilisées, sans pour autant rejeter toutes les technologies qui sont disponibles.&lt;&#x2F;p&gt;
+&lt;p&gt;Les Google Pixel restent des appareils très performants et réputés pour leur qualité photographique, ce qui en fait en couplant avec GrapheneOS un choix intéressant pour ceux qui cherchent à allier performance et vie privée.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;utilisation-quotidienne&quot;&gt;Utilisation quotidienne&lt;&#x2F;h2&gt;
+&lt;p&gt;Passons aux choses sérieuses : est-ce que GrapheneOS est pertinent au quotidien et est-ce que je m&#x27;y plais à utiliser ce système. Globalement, mon expérience est très positive ! L&#x27;interface est très proche d&#x27;un Android standard, toutes les fonctionalités que l&#x27;on recherche sur un smartphone sont présentes, et la fluidité est au rendez-vous. Ne pas avoir une flopée d&#x27;applications et de services Google préinstallés est un réel soulagement, et ne pas avoir de surcouche constructeur rend l&#x27;expérience utilisateur plus épurée.&lt;&#x2F;p&gt;
+&lt;p&gt;Parmis les fonctionnalités que j&#x27;apprécie particulièrement, il y a la gestion fine des permissions des applications, qui me permet de contrôler précisément quelles données chaque application peut accéder. Il est possible de désactiver les permissions à tout moment, mais il est aussi possible de désactiver automatiquement les permissions pour les applications qui n&#x27;ont pas été utilisées depuis un certain temps, ce qui est un plus pour la sécurité. De plus, la caméra et le microphone peuvent être désactivés globalement, et un indicateur visuel apparaît lorsqu&#x27;une application y accède. Enfin, les applications sont isolées les unes des autres grâce à un système de sandboxing renforcé, ce qui fait que même si l&#x27;on utilise les services Google, ceux-ci n&#x27;ont pas accès aux données des autres applications.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;ℹ️ Il faut savoir que sur votre appareil Android standard, les services Google sont considérés comme des applications système, ce qui leur donne un accès privilégié aux données et aux fonctionnalités de l&#x27;appareil. Il faut voir cela comme si Google était administrateur de votre téléphone, et vous un simple utilisateur.&lt;&#x2F;p&gt;
+&lt;p&gt;Sous GrapheneOS, les services Google sont installés en tant qu&#x27;applications utilisateur, ce qui limite considérablement leur accès aux données et aux fonctionnalités de l&#x27;appareil.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Il y a aussi la possibilité de créer des profils utilisateurs séparés. Cela me permet d&#x27;avoir un profil principal où aucun compte Google n&#x27;est connecté, et un profil secondaire auquel j&#x27;ai associé mon compte Google pour les applications qui en ont besoin.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;inconvenients&quot;&gt;Inconvénients&lt;&#x2F;h2&gt;
+&lt;p&gt;Cependant, j&#x27;aimerais mesurer un peu mes propos et vous partager quelques inconvénients que j&#x27;ai pu rencontrer :&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Compatibilité des applications&lt;&#x2F;strong&gt; : Certaines applications dépendent fortement des services Google pour fonctionner correctement. En soit il est toujours possible de les utiliser par exemple dans un profil séparé, mais cela peut être contraignant.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Indisponibilité de certaines applications&lt;&#x2F;strong&gt; : Certaines applications ne peuvent tout simplement pas fonctionner. Certaines applications bancaires, par mesure de sécurité, refusent de fonctionner sur des appareils non certifiés par Google. Je ne suis personnellement pas concerné par ce problème, mais il faut absolument s&#x27;assurer que les applications que vous utilisez au quotidien sont compatibles avant de faire le saut.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;La configuration initiale&lt;&#x2F;strong&gt; : Bien que l&#x27;installation est très simple, la configuration initiale peut être un peu plus compliqué pour les utilisateurs moins expérimentés. Je dirais que ça m&#x27;a pris environ une semaine pour tout configurer à mon goût, et je conseille d&#x27;avoir quelqu&#x27;un de plus expérimenté à côté pour aider si besoin (savoir changer les Paramètres sont suffisants, pas besoin d&#x27;être un expert en informatique).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Le système de notifications&lt;&#x2F;strong&gt; : Malheureusement, la très grande majorité des applications utilisent les services de notifications push de Google (Firebase Cloud Messaging), ce qui fait que sans les services Google installés avec la permission d&#x27;accéder à internet, les notifications ne fonctionnent pas. Personnellement, j&#x27;ai choisi cette solution sur mon profil principal, sans pour autant associer un compte Google, mais cela est un compromis à prendre en compte.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Certaines applications manquent d&#x27;alternatives&lt;&#x2F;strong&gt; : Le seul exemple qui me vient en tête est Google Maps. Il existe des alternatives open source tel que &lt;a href=&quot;https:&#x2F;&#x2F;organicmaps.app&#x2F;&quot;&gt;Organic Maps&lt;&#x2F;a&gt; qui est une super application basée sur OpenStreetMap, mais qui n&#x27;est pas aussi complète que Google Maps (avis sur les restaurants directement dans l&#x27;application et intégration de la navigation des transports en commun par exemple).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h2&gt;
+&lt;p&gt;Malgré ce dernier paragraphe, je ne peux que recommander à ceux qui hésitent à sauter le pas de tester GrapheneOS. Bien que ce ne soit pas parfait à cause des nombreuses entreprises qui dépendent directement des services Google, c&#x27;est une excellente alternative pour ceux qui cherchent à améliorer leur vie privée numérique. Il reste possible d&#x27;être complètement dégooglisé en utilisant ce système d&#x27;exploitation pour les plus courageux, mais aussi de trouver un bon compromis en utilisant les services Google de manière limitée et contrôlée.&lt;&#x2F;p&gt;
+&lt;p&gt;Si vous avez des questions sur des aspects que je n&#x27;ai pas abordés, ou si vous voulez que je rentre plus en détail sur certains points, n&#x27;hésitez pas à laisser un commentaire !&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="fr">
         <title>Degooglisation : Reprendre le contrôle de vos données</title>
         <published>2025-10-15T00:00:00+00:00</published>
